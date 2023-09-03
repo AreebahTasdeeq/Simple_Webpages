@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <style>
+        /* CSS styles go here */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+            text-align: left;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Book</h1>
+        <ul>
+            <li><a href="#recipe1">Spaghetti Carbonara</a></li>
+            <li><a href="#recipe2">Chicken Alfredo</a></li>
+            <li><a href="#recipe3">Vegetable Stir-Fry</a></li>
+        </ul>
+    </div>
+
+   <!-- Recipe 1 (Spaghetti Carbonara) -->
+<div id="recipe1" style="display: none;">
+    <h2>Spaghetti Carbonara</h2>
+    <img src="https://www.foodbanjo.com/wp-content/uploads/2016/02/pasta-carbonara-fp1200.jpg"width="500" height="500" alt="Spaghetti Carbonara">
+    <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.</p>
+    <p><strong>Ingredients:</strong></p>
+    <ul>
+        <li>200g spaghetti</li>
+        <li>2 large eggs</li>
+        <li>100g Pecorino Romano cheese</li>
+        <li>100g pancetta</li>
+        <li>Black pepper</li>
+    </ul>
+    <p><strong>Instructions:</strong></p>
+    <ol>
+        <li>Cook the spaghetti in a large pot of salted boiling water until al dente. Drain and set aside.</li>
+        <li>In a bowl, whisk together the eggs, grated Pecorino Romano cheese, and a generous amount of black pepper.</li>
+        <li>In a pan, cook the pancetta until crispy.</li>
+        <li>Combine the cooked spaghetti, pancetta, and egg mixture. Toss well to coat the pasta.</li>
+        <li>Serve immediately with extra grated cheese and black pepper if desired.</li>
+    </ol>
+</div>
+
+<!-- Recipe 2 (Chicken Alfredo) -->
+<div id="recipe2" style="display: none;">
+    <h2>Chicken Alfredo</h2>
+    <img src="https://iwashyoudry.com/wp-content/uploads/2022/08/Chicken-Alfredo-Low-Res-21.jpg"width="500" height="500" alt="Chicken Alfredo">
+    <p>A creamy pasta dish made with tender chicken, fettuccine, and Alfredo sauce.</p>
+    <p><strong>Ingredients:</strong></p>
+    <ul>
+        <li>8 oz fettuccine pasta</li>
+        <li>2 boneless, skinless chicken breasts</li>
+        <li>2 tablespoons butter</li>
+        <li>2 cloves garlic, minced</li>
+        <li>1 cup heavy cream</li>
+        <li>1 cup grated Parmesan cheese</li>
+        <li>Salt and black pepper, to taste</li>
+    </ul>
+    <p><strong>Instructions:</strong></p>
+    <ol>
+        <li>Cook the fettuccine pasta according to package instructions. Drain and set aside.</li>
+        <li>Sprinkle salt and black pepper on both sides of the chicken breasts. In a pan, melt the butter over medium-high heat and cook the chicken until no longer pink in the center. Remove the chicken from the pan and slice it into thin strips.</li>
+        <li>In the same pan, add minced garlic and cook for about 30 seconds. Pour in the heavy cream and bring it to a simmer. Reduce heat and stir in the grated Parmesan cheese until the sauce is smooth and creamy.</li>
+        <li>Add the cooked pasta and sliced chicken to the sauce. Toss everything together and heat through.</li>
+        <li>Serve hot, garnished with additional Parmesan cheese and black pepper if desired.</li>
+    </ol>
+</div>
+
+<!-- Recipe 3 (Vegetable Stir-Fry) -->
+<div id="recipe3" style="display: none;">
+    <h2>Vegetable Stir-Fry</h2>
+    <img src="https://www.budgetbytes.com/wp-content/uploads/2022/03/Easy-Vegetable-Stir-Fry-V1.jpg" width="500" height="500" alt="Vegetable Stir-Fry">
+    <p>A quick and healthy stir-fry with a variety of colorful vegetables and a flavorful sauce.</p>
+    <p><strong>Ingredients:</strong></p>
+    <ul>
+        <li>2 cups broccoli florets</li>
+        <li>1 red bell pepper, sliced</li>
+        <li>1 yellow bell pepper, sliced</li>
+        <li>1 carrot, thinly sliced</li>
+        <li>1 cup snow peas</li>
+        <li>1 cup sliced mushrooms</li>
+        <li>3 cloves garlic, minced</li>
+        <li>2 tablespoons vegetable oil</li>
+        <li>1/4 cup soy sauce</li>
+        <li>2 tablespoons hoisin sauce</li>
+        <li>1 teaspoon sesame oil</li>
+    </ul>
+    <p><strong>Instructions:</strong></p>
+    <ol>
+        <li>Heat vegetable oil in a large pan or wok over high heat. Add minced garlic and stir-fry for about 30 seconds.</li>
+        <li>Add broccoli, red bell pepper, yellow bell pepper, carrot, and mushrooms to the pan. Stir-fry for 3-4 minutes until the vegetables start to soften.</li>
+        <li>Add snow peas and continue to stir-fry for an additional 2 minutes.</li>
+        <li>In a small bowl, mix together soy sauce, hoisin sauce, and sesame oil. Pour the sauce over the vegetables and stir-fry for 2-3 minutes until everything is well coated and heated through.</li>
+        <li>Serve the vegetable stir-fry hot over cooked rice or noodles.</li>
+    </ol>
+</div>
+
+
+    <script>
+        // JavaScript code to toggle recipe visibility
+        const recipes = document.querySelectorAll('div[id^="recipe"]');
+
+        recipes.forEach((recipe) => {
+            recipe.style.display = 'none';
+        });
+
+        window.addEventListener('hashchange', () => {
+            const hash = window.location.hash.substr(1);
+            recipes.forEach((recipe) => {
+                recipe.style.display = 'none';
+            });
+            document.getElementById(hash).style.display = 'block';
+        });
+
+        // Check for initial hash
+        if (window.location.hash) {
+            window.dispatchEvent(new Event('hashchange'));
+        }
+    </script>
+</body>
+</html>
