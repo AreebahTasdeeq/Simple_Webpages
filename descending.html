@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Numbers in descending order</title>
+    <script type="text/javascript">
+      function ndesc()
+      {
+        var num = document.forms["frm1"].num.value;
+        var nums = num.split(',');
+        var asc_sort = nums.sort(function(a,b){return a-b};
+        var reversed_sort=asc_sort.reverse();
+        document.forms["frm1"].desc.value=reversed_sort;
+      }
+    </script>
+  </head>
+  <body>
+    <form name="frm1">
+    <center>
+      <h2 style="font-family: cursive;">Numbers in descending order</h2>
+      </center>
+      <br>
+      <center> Enter the numbers separated by coma:<input type ="text" name="num"></input></center>
+      <br>
+      <center>
+        <input type="button" name="inwords" value="In descending order" onclick="ndesc()"></input>
+        </center>
+        <br><br>
+        <center> Number in descending order:<input type="text" name="desc"></input></center>
+    </form>
+  </body>
+</html>
